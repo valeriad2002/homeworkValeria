@@ -25,7 +25,7 @@ function App() {
         <Phrases className="phrase" index={index} />
         <Author index={index} />
         <br />
-        <button onClick={change}
+        <button className='button' onClick={change}
           style=
           {{ background: color[ranColor] }}
         ><i className="fa-sharp fa-solid fa-arrow-right"></i>
